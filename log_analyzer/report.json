@@ -1,0 +1,25 @@
+{
+    "generated_at": "2026-03-28T12:18:17.524480",
+    "summary": {
+        "failed_logins": 19,
+        "successful_logins": 2,
+        "suspicious_ips": 3,
+        "compromised_ips": 1
+    },
+    "suspicious_ips": {
+        "192.168.1.100": 6,
+        "10.0.0.55": 5,
+        "203.0.113.42": 7
+    },
+    "targeted_users": {
+        "root": 13,
+        "admin": 4,
+        "ubuntu": 2,
+        "guest": 1,
+        "test": 1,
+        "deploy": 1
+    },
+    "compromised_ips": [
+        "192.168.1.100"
+    ]
+}

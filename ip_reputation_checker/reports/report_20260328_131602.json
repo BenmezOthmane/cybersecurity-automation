@@ -1,0 +1,46 @@
+{
+    "generated_at": "2026-03-28T13:16:02.674219",
+    "total_ips": 5,
+    "results": [
+        {
+            "ip": "8.8.8.8",
+            "abuse_score": 0,
+            "total_reports": 16,
+            "country": "US",
+            "isp": "Google LLC",
+            "last_reported": "2026-03-27T10:21:13+00:00"
+        },
+        {
+            "ip": "1.1.1.1",
+            "abuse_score": 0,
+            "total_reports": 239,
+            "country": "AU",
+            "isp": "APNIC and Cloudflare DNS Resolver project",
+            "last_reported": "2026-03-27T14:51:43+00:00"
+        },
+        {
+            "ip": "185.220.101.1",
+            "abuse_score": 100,
+            "total_reports": 134,
+            "country": "DE",
+            "isp": "Artikel10 e.V.",
+            "last_reported": "2026-03-28T08:13:41+00:00"
+        },
+        {
+            "ip": "192.168.1.1",
+            "abuse_score": 0,
+            "total_reports": 0,
+            "country": null,
+            "isp": null,
+            "last_reported": "2026-02-22T07:05:44+00:00"
+        },
+        {
+            "ip": "45.33.32.156",
+            "abuse_score": 0,
+            "total_reports": 2,
+            "country": "US",
+            "isp": "Linode",
+            "last_reported": "2026-03-19T15:27:24+00:00"
+        }
+    ]
+}
