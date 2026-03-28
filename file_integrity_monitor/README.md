@@ -2,7 +2,6 @@
 
 A Python tool that monitors sensitive files and directories for unauthorized changes using SHA-256 hashing.
 
-![Baseline](screenshots/Baseline.png)
 ![Monitor](screenshots/Monitor.png)
 
 ##  Features
