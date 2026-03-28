@@ -41,7 +41,7 @@ python ip_checker.py --file my_ips.txt
   ✅ Clean: 4  |  🔴 Critical: 1  |  Total: 5
 ```
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated
 - REST API integration
 - Bulk data processing
 - Risk scoring & classification
