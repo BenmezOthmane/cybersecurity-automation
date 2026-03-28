@@ -1,29 +1,40 @@
-# Log Analyzer & Brute Force Detector
+#  Log Analyzer & Brute Force Detector
 
-## Description
-Python tool that parses SSH auth logs to detect brute force attacks,
-suspicious IPs, and compromised accounts.
+A Python tool that parses SSH authentication logs to detect brute force attacks and compromised accounts.
 
-## Features
+##  Features
 - Detects brute force attacks based on failed login threshold
-- Identifies most targeted usernames
-- Flags IPs that brute forced AND logged in successfully
+- Identifies most targeted usernames (root, admin...)
+- Flags IPs that brute forced AND successfully logged in
 - Generates structured JSON report
 
-## Usage
+##  Requirements
+No external libraries needed — Python 3.8+ only
+
+##  Usage
 ```bash
-# Basic
+# Basic usage
 python log_analyzer.py
 
-# Custom log file
+# Real auth log
 python log_analyzer.py --log /var/log/auth.log
 
 # Custom threshold
 python log_analyzer.py --threshold 10
 ```
 
-## Skills Demonstrated
+##  Sample Output
+```
+[!] BRUTE FORCE IPs (threshold: 5)
+  203.0.113.42      7 attempts  ███████
+  192.168.1.100     6 attempts  ██████
+
+[!!!] POSSIBLE SUCCESSFUL ATTACKS
+    192.168.1.100 — brute forced AND logged in!
+```
+
+##  Skills Demonstrated
 - Log parsing with Regex
 - Pattern detection & cross-referencing
-- CLI tool design with argparse
+- CLI design with argparse
 - JSON report generation
