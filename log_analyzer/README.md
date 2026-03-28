@@ -2,6 +2,8 @@
 
 A Python tool that parses SSH authentication logs to detect brute force attacks and compromised accounts.
 
+![log_analyzer](screenshots/log_analyzer.png)
+
 ##  Features
 - Detects brute force attacks based on failed login threshold
 - Identifies most targeted usernames (root, admin...)

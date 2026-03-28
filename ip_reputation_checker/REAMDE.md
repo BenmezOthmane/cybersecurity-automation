@@ -2,6 +2,8 @@
 
 A Python tool that checks IP addresses against AbuseIPDB to identify malicious actors and generate reputation reports.
 
+![ip_checker](screenshots/ip_checker.png)
+
 ##  Features
 - Checks multiple IPs in bulk from a text file
 - Integrates with AbuseIPDB API
